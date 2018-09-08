@@ -78,21 +78,21 @@
 }
 
 /*Social Media Menu*/
-.social{
+.social, .socialFooter{
     display:inline;
     float:right;
     padding-left:40px;
     margin-right:240px;
 }
-.social a{
+.social a, .socialFooter a{
   padding-right:5px;
 }
-.social li {
+.social li , .socialFooter li{
    float: left;
    list-style-type:none;
    display:inline
    }
-.social ul {
+.social ul , .socialFooter ul{
     list-style-type: none;
     margin-left: 0;
     padding: 0;
