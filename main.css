@@ -17,7 +17,7 @@
   margin-bottom:0;
   margin-top:0;
   padding-left: 20px;
-  color: #ffffff;
+  color: #238cb9;
   font-family: "Source Sans Pro", sans-serif;
   font-weight:100;
   font-size: 40px;
@@ -27,7 +27,7 @@
 .navbar h2 {
   margin-top:0;
   padding-left: 20px;
-  color: #ffffff;
+  color: #238cb9;
   font-family: "Source Sans Pro", sans-serif;
   font-weight:100;
   font-size: 25px;
@@ -39,7 +39,7 @@
   text-align: center;
   padding: 1px 15px;
   text-decoration:none;
-  color: #ffffff;
+  color: #de6a0e;
   width:100%;
   margin-left:0;
   overflow: hidden;
@@ -49,6 +49,7 @@
 }
 .menu a:hover:not(.active) {
     background-color: #444444;
+    color: #028423;
 }
 
 .menu li {
