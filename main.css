@@ -135,8 +135,11 @@ height:25px;
 }
 .footer{
   background-color:#dad2cc;
-  padding:15px 0 15px 0;
+  padding:15px 10px 15px 0;
   width:100%;
+  margin-right:0;
+  position:absolute;
+  bottom:0;
 }
 .footer p {
   padding-left:10px;
