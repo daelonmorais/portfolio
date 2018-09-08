@@ -7,9 +7,9 @@
 }
 .navbar {
   overflow: hidden;
-  top=0;
+  top:0;
   position:fixed;
-  width=100%;
+  width:100%;
   background-color: #212121;
   
 }
@@ -37,7 +37,7 @@
 .menu a{
   
   text-align: center;
-  padding: 1px 7px;
+  padding: 1px 15px;
   text-decoration:none;
   color: #ffffff;
   width:100%;
@@ -47,9 +47,10 @@
   background-color: #212121;
 
 }
-.menu a:hover{
-
+.menu a:hover:not(.active) {
+    background-color: #444444;
 }
+
 .menu li {
    float: left;
    list-style-type:none;
@@ -66,7 +67,6 @@
 }
 .menu{
 	display:inline;
-    float:right;
-    padding-right:100px;
-    margin-left:40px;
+    float:left;
+    padding-left:40px;
 }
