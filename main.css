@@ -80,8 +80,9 @@
 /*Social Media Menu*/
 .social{
     display:inline;
-    float:left;
+    float:right;
     padding-left:40px;
+    margin-right:100px;
 }
 .social a{
   padding-right:3px;
