@@ -37,6 +37,9 @@
   display:inline;
   float:left;
 }
+.navbar a{
+  text-decoration:none;
+}
 /*Navigation Menu*/
 .menu a{
   text-align: center;
