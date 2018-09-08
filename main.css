@@ -11,10 +11,16 @@ html, body {
   width=100%;
 }
 .nav h1 {
-  top=0;
   padding-left: 20px;
   color: #ffffff;
   font-family: "Source Sans Pro", cursive, sans-serif;
   font-weight:100;
   font-size: 40px;
+}
+.nav h2 {
+  padding-left: 20px;
+  color: #ffffff;
+  font-family: "Source Sans Pro", cursive, sans-serif;
+  font-weight:100;
+  font-size: 250px;
 }
