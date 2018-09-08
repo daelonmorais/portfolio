@@ -9,7 +9,7 @@
 .navbar {
   overflow: hidden;
   top:0;
-  position:relative;
+  position:fixed;
   width:100%;
   background-color: #212121;
   
