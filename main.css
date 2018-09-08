@@ -35,7 +35,11 @@ html, body {
   float: left;
   display: inline-block;
   text-align: center;
+  vertical-align:top;
   padding: 1px 10px;
   text-decoration:none;
   color: #ffffff;
 }
+li {float: left;
+   list-style-type:none;
+   }
