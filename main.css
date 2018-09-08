@@ -4,24 +4,23 @@ html, body {
   width: 100%;
   height: 100%;
 }
-.nav {
+.navbar {
   overflow: hidden;
   top=0;
-  background-color: #000000;
+  position:fixed;
+  padding-right:100%;
+  background-color: #212121;
   width=100%;
 }
-.nav h1 {
-  top=0;
+.navbar h1 {
   padding-left: 20px;
   color: #ffffff;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", cursive, sans-serif;
   font-weight:100;
   font-size: 40px;
-  margin-bottom:0;
 }
-.nav h2 {
-  margin-top:0;
-  padding-left: 40px;
+.navbar h2 {
+  padding-left: 20px;
   color: #ffffff;
   font-family: "Source Sans Pro", cursive, sans-serif;
   font-weight:100;
