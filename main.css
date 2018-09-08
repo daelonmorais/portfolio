@@ -85,7 +85,7 @@
     margin-right:240px;
 }
 .social a{
-  padding-right:3px;
+  padding-right:5px;
 }
 .social li {
    float: left;
@@ -139,7 +139,7 @@ body.homepage{
 }
 /*About Page*/
 body.aboutpage{
-  background-color:white;
+  background-color:#white;
 }
 .aboutpage p{
   padding:5px 0px 0px 100px;
