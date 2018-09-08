@@ -139,8 +139,9 @@ body.homepage{
 }
 /*About Page*/
 body.aboutpage{
-  background-color:aliceblue;
+  background-color:white;
 }
 .aboutpage p{
-  padding-left:20px
+  padding:5px 0px 0px 100px;
+  margin-right:650px;
 }
