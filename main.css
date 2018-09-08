@@ -70,11 +70,16 @@
     background-color:#212121;
 }
 .menu{
-	display:inline;
+    display:inline;
     float:left;
     padding-left:40px;
 }
 /*Social Media Menu*/
+.social{
+    display:inline;
+    float:left;
+    padding-left:40px;
+}
 .social a:hover:not(.active) {
     background-color: #444444;
     color: #028423;
