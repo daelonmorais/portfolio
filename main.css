@@ -15,5 +15,6 @@ html, body {
   padding-left: 20px;
   color: #ffffff;
   font-family: "Source Sans Pro", cursive, sans-serif;
+  font-weight:100;
   font-size: 40px;
 }
