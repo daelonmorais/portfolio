@@ -1,226 +1,72 @@
- html{
-  font-family:"Source Sans Pro", sans-serif;
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding:45px 0 0 0;
-}
-body {
-  font-family:"Source Sans Pro", sans-serif;
-  width: 100%;
-  min-height: 100%;
-  margin: 0px;
-  padding:45px 0 0 0;
-  position: relative;
-}
-/*Navigation Header*/
-.navbar {
-  overflow: hidden;
-  top:0;
-  position:fixed;
-  z-index: 999;
-  width:100%;
-  background-color: #212121;
-  padding-left:100px
-}
+<!DOCTYPE html> 
+<html> 
+  <head>
+  <title>Daelon's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <script>
+		// The following code lets you know when the file was last modified. 
+        // This will help you know if you are looking at the new version of the file or if there is a delay on GitHub.
+        var docMod = document.lastModified;
+        //alert("This file last modified  " + docMod);
+        console.log("This file last modified  " + docMod);
+        // If you find the alert box annoying, comment out that line and timestamp will still show up in the debugging console
+  </script>
+  </head>
+	
+<!--About-->
+<div data-role="page" id="about">
+    <div data-role="header">
+    <div class="navbar">
+      <a href="index.html"><h1>PORTFOLIO</h1></a>
+      <a href="index.html"><h2>by Daelon Morais</h2></a>
+	<div class="menu">
+		<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="kitchen.html">In the Kitchen</a></li>
+		<li><a href="travel.html">Oh, the places I have gone...</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+	 <div class="social">
+	    <ul>
+		<li><a href="https://www.instagram.com/daelonmorais/"><img src="https://lh3.googleusercontent.com/Oqz9cttmbYtbB1c7_3kla-an1ea9E-rNWeYFWB-PgJ061LkMRXGhfU6yFdJrMwWKX4hC_F28kFOcFqso5_MJdy6drZuHagCN7DlXax9stBCwJI0V4-prFwRAbwb_AUZHM2EYidTgFpvJkP7BiSSwgikc3Muf-C5My5poXXaXVRZ4e8QOPvUSh040Hp-ZEni6RS2_k1uaan5rjPI1sKkuJKrBIy7VSRBOfgu0cRMONZIpLE0uqBCCseqzBfPu3F1T_zuhxEWvA-3W4ibRltsedsEij3qmyQqd_tU3pePvXTGLPKudNSzWe2jbX_lqt1jDb0Wcoy051ezSrxfGvFJXVSE0OeAY738pk4_AjCfzHkJy0Chbccqvo9wrUoNAiYib3Le5iI0GG8g7WDB_QkcYLxtPiPeGHZuWVCLJ25N4Bb697WNrS00hL_W812qaXSrZrZj_t_CQJFw1rg5lmnRlt_03YzjeWmDGrfX0lU43lD0Kav9qCSH3P_IP_btBqC0NQQL6l6Sa4cpGwLSAz_ld6kDQAD0l5XTyxQ8hIa1_JpeAZ2NefX-rvSkc9dK681GgzyAevp6uj1BlmsDfgPSrpxYXrH50wzc3Y3bWTgt5X51L-0dYbUY_unlH86qS_zI=s200-no" class="instagram"></a></li>
+		<li><a href="https://www.facebook.com/profile.php?id=100011194982490"><img src="https://lh3.googleusercontent.com/0nlsa6uQGjgemRATMakHuvrN7jM5i1OsNdoRzsVrnVTbT0buGkUar3AQGs-ZvZCynizZ6qjOE_RO-Qt35NAgTfnG3cEeIwKzaEdp3dE7UUUvZOY28ACbe0W2QE9eLaW8Xjw5VSeGs2uTGzgDaE4DHtO5NPJhTRdWCtpotQ9YDxRYPslX-vgkevm_IijwGu_fzqFG1C1X-iVATjV4-k0YgWsy6VOM2lrkw86zfyB3TCQoe3cEBD9K9KifGBSHt5VG5qGLue_5desMtxOjyJcdN2lOyGae8OmmfX8NTeMX9TbiG-Xi9Mevtm8QBQ2wpZkVUdDEB7UOpLOSoG1oZMl4t4Pv0Z61LYqzVgY73rFGvJTx_cX2M10ZSprzCQntdeh2PxgDqFlvR66QZc7yrBZJynnGKMQPrg5N1vU9PBGeLJ8-Nhy-AzunZ_AP_ubS62vdbiHhy-RgQ-_ZGzTxW_IhaG3DLHSiMLS2i8Mwf2ip6KkV87Z_gtrThqbgDh14YLbCPgI7p1mkgpqpI2qCBMx4TYZeVw_jZVKALyM4u0jpAsiNaEwafQ2AIDlk1ksT394sQaw8J-2eRWwvh6Y9_7TZDBT5yR2b0rB7W3rC-GUK20AdP-Qsg5-pTseeoGEWZ4I=s512-no" class="facebook"></a></li>
+		<li><a href="https://twitter.com/daelonmorais"><img src="https://lh3.googleusercontent.com/hDFt-z81uluvPq0c7QwfJE_DM-_q8-NSER4cEBB0yrGL2Wt5QMQIfS_rINF28JlWlQDZxBTrUF8DUaEnG_3Ze3CrTo4HkxIFpVHlpBTC2liq7T9DS4nGqzxRxxbdjcgl-t7f2YyXnJfFE5xQVmpV_Kt3Z6SfVgE95SyPnyqjH_JWVkNtdmBeXuHJy3CooPHSW_2qpEUrf86XQ0RKutQmSrnCMKmG77oenVVfrrs9XxsM5XX8WgA8FQQ80wDy3bA_ydjdivo_MByu2AVZjo6Rli944zuZiM2WQAW7HHPYoPneNYn235PtaScUXh9INK2y9AeiN0rnWm2SlCv1DsLMIbhFhNrc3WJ2rQwwvkMy8czbp8xO9LYpGq0XiyCyyzM1aF9lCM69cVHtuhlvlZpPjfa-lRofqRn-cdxdotNfCYBxZop35R6nmcyLOppmFk2u4-uUQQ1Mq1nARoGDQZUqgIlb66Mg92RbrUzlyBW7_svGD0Mq8exmdIauUFgGXYNPyAJ08R2c-yw3S1-t3WMM_DdImbK1mJ-bylV9QnaNLwkm0DO-VCr-xNB0l-QiXO3hd08N0cNPwKXbAeyCFnA1vBy4WUbyq-x6UWnIkcSckfpiGH8JnWNJosTqxU8ITGI=w1165-h1167-no" class="twitter"></a></li>
+		<li><a href="https://www.linkedin.com/in/daelonmorais/"><img src="https://lh3.googleusercontent.com/4X-w_VFrbLtB2IZiQoM9GbKVjJ-2lBP6zRCw6lbQOrFli6bEmk4Kq_r5v55E9kB_0GGVRCNZ34bL1raU3zm550WMrc0qY7eQ6DSGPfZpaI0Y6JiQ3XQeZ8LgUV1oIdfkUEnTFU7JxDBlgr21XIEBIE157iN1P-ZRdPuXbSkhea6kUNmJQi2MJeHfqHHpsgMLNFvb69_9bts_nXO2mH4BFSb0w00vIxfdurAvHndt0lhgmBMdLFPAo4juOka8sgcjaofdFpOd7__5l_qDzOsM_-1mWw99KbyyroDRtgls0sLeR0TDvvKDUI27M4Rp7DWIHymy3T_RwzF17dgrymXvQuZB9fZIFqs5KyXaGgLxHZZEt_7QADwBraNsquBy7h3T5M6CEDOE5ne5GyC56zWDMdlo7CtHf8RWaztvC5Z6WVtzLG5nttSQSdUfVRkeOVwPkfVgFcBsiIzd3URxpiJo_UOIFQ5qV3ojNtPuVT4TjZSBod2ND7Ng9ttctsNvA6hE00AcHQWm515qKeOeza4X9iFxbCCIlXn0X0RAIM3ZjrT3BpPnAFTnPUatVugVnAvRFdeyo-ZCugE_Mnk7H74aQ2iNqA_nD3dzFIDOJ80soROfY3bFsDhDE0IePpPhSok=s1317-no" class="linkedin"></a></li>
+	    </ul>
+	</div>
+    </div>
+    </div>
+  <body class="aboutpage">
 
-/*Title*/
-.navbar h1 {
-  margin-bottom:0;
-  margin-top:0;
-  padding-left: 20px;
-  color: #238cb9;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight:100;
-  font-size: 40px;
-  width:100%
-  }
-/*Byline*/
-.navbar h2 {
-  margin-top:0;
-  padding-left: 20px;
-  color: #238cb9;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight:100;
-  font-size: 25px;
-  display:inline;
-  float:left;
-}
-.navbar a{
-  text-decoration:none;
-}
-/*Navigation Menu*/
-.menu a{
-  text-align: center;
-  padding: 1px 15px;
-  text-decoration:none;
-  color: #de6a0e;
-  width:100%;
-  margin-left:0;
-  overflow: hidden;
-  display:inline;
-  background-color: #212121;
-
-}
-.menu a:hover:not(.active) {
-    background-color: #444444;
-    color: #028423;
-}
-.menu{
-    display:inline;
-    float:left;
-    padding-left:40px;
-}
-.menu li {
-   float: left;
-   list-style-type:none;
-   display:inline
-   }
-.menu ul {
-    list-style-type: none;
-    margin-left: 0;
-    padding: 0;
-    overflow: hidden;
-    display:inline;
-    width:100%;
-    background-color:#212121;
-}
-
-/*Social Media Menu*/
-.social, .socialFooter{
-    display:inline;
-    float:right;
-    padding-left:40px;
-    margin-right:16vw;
-}
-.social a, .socialFooter a{
-  padding-right:5px;
-}
-.social li , .socialFooter li{
-   float: left;
-   list-style-type:none;
-   display:inline
-   }
-.social ul , .socialFooter ul{
-    list-style-type: none;
-    margin-left: 0;
-    padding: 0;
-    overflow: hidden;
-    display:inline;
-    width:100%;
-    background-color:#212121;
-}
-/*Instagram*/
-.instagram {
-width:25px;
-height:25px;
-}
-.instagram:hover:not(.active) {
-    background-color: #238cb9;
-}
-/*Facebook*/
-.facebook {
-width:25px;
-height:25px;
-}
-.facebook:hover:not(.active) {
-    background-color: #238cb9;
-}
-/*Twitter*/
-.twitter {
-width:25px;
-height:25px;
-}
-.twitter:hover:not(.active) {
-    background-color: #238cb9;
-}
-/*LinkedIn*/
-.linkedin {
-width:25px;
-height:25px;
-}
-.linkedin:hover:not(.active) {
-    background-color: #238cb9;
-}
-.footer{
-  background-color:#dad2cc;
-  padding:15px 10px 15px 0;
-  width:100%;
-  margin-bottom:0;
-  margin-top:65vh;
-  position:fixed;
-  bottom:0;
-}
-.footer footer {
-  padding-left:1vw;
-  display:inline;
-}
-/*Home Page*/
-body.homepage{
-  background-image:url("https://lh3.googleusercontent.com/bH_l8SrsqNcT0wVnivwYc7qUJfX7VIrf9al5Xhnwn8vCO3XXTHD2P4eYF76ZGmg26dTlTj1-sE1CXbnTyfLakC8UzBxpu1aLp31emXI-QRUAhLvrHOJSlQQJ718aeWfT0o5Vm5F7tOhedM0RREd2hAxO4C_otICJa7rNc8bpqKkmeGEQBcEjLZd0jiVAdHLQ3EdpOrGrJGtfogB7HBBFmE4UkUkt9OZfFa9hGXItVT3lEOzjRZe_s3_r0yU-A8ca347301LsteHt6_z2THg942ZnN1amd1HQit99wj7Z5BNxDAx40hC9q65ubKDgLcIhPQxyvo8fxakdmVt-yhJL1O7engYZGdBzTUu1G-0_lrOh8bqHsXViOiP3QPbL3jAPE0RWGf3ZqUdsW_neqo1k_Ma8arFsdA7wCyAkRIXSWAvHK6QJH5XK0R5MgD6TLQYbGRNe_f2NiSEMGfCnJkpT7T5iaGuM3GdaE6A9XMT4_yGMTrPhwlwNW4ayAiM8ByVhyxllCy8_HIwjTg9-HSWj8bLfYZWvdVdHSaZYMa5mdptPnQh1fekGDoKZrQKR8rJf02SUTAGG6kSXeHn5GbRQElWz07l_E2h1MChSv40iGrE_1Lo_IuKf4gc8lXGf9kI=w1684-h960-no");
-  no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.homepage h3{
-  margin-left:0px;
-  margin-top: 80vh; 
-  margin-bottom:0;
-  font-size:30px;
-  font-weight:100;
-  color: #ffffff;
-  background-color:#212121;
-  width:100%;
-  padding:50px 0px 50px 10px;
-  position: absolute;
-}
-#denver{
-  width:600px;
-  position:absolute;
-  top:65px;
-  left:70px;
-}
-#goa{
-  width:370px;
-  height: 300px;
-  position:absolute;
-  top:65px;
-  left:760px;
-}
-/*#chicago{
-  height:290px;
-  width:520px;
-  position:absolute;
-  top:360px;
-  left:700px;
-}*/
-#kenya{
-  height:270px;
-  position:absolute;
-  top:390px;
-  left:70px;
-}
-
-/*About Page*/
-body.aboutpage{
-  background-color:#white;
-}
-.aboutpage p{
-  padding:5px 0px 0px 100px;
-  margin-right:650px;
-  text-indent: 50px;
-}
-.aboutpage h4{
-  padding:5px 0px 0px 100px;
-  margin-left:250px;
-  font-size:20px;
-  font-weight:bolder
-}
-#me{
-  width:390px;
-  position:absolute;
-  top:180px;
-  left:760px;
-}
+    <h4>ABOUT</h4>
+    <p>    Hello there! My name is Daelon Morais, but you probably already know that since you're checking out my website. No, you clicked on the "About" tab to learn much more than just my name, and I'm here to deliver.<br/>
+    <p>To put it in a few words: I am a jack of all trades, master of a few. I'm naturally curious about so many eclectic subjects and being in the "Information Age" gives me unparalleled access to anything and everything I want to explore. Therefore, while my goal is to someday join the medical field, in my downtime, I like to dabble. My main areas of burgeoning exploration are in music, building, cooking, and coding.<br/></p>
+<p style="text-align:center"><b>Music</b></p>
+    <p>I started piano lessons and I was young, but never truly enjoyed it until after I quit. I discovered that the problem wasn’t the instrument itself but rather what I was learning. I wasn’t interested in the song choices and style of teaching. I began to watch YouTube videos and use online sheet music to play the kind of music that I wanted to. This made me feel like I have more autonomy and, in turn, I found a true passion for music. I even have a piano keyboard in my dorm so that I can practice and relieve any stress that I have playing on those keys.<br/>
+<p style="text-align:center"><b>Building</b></p>
+    <p>Now and then, I venture into side projects that let me do some hands-on tasks. Thanks to the internet and my various interests, there is a wide variety of things I like to make from superhero costumes (My favorite heroes are Spiderman, Batman, Iron Man, and my latest favorite Captain America) to electronics (I’ve only experienced a few mild shocks and burns don’t worry)to furniture (I use the term “furniture” very loosely).<br/>
+<p style="text-align:center"><b>Cooking</b></p>
+    <p>Cooking as a passion was born out of the pure instinct of survival. To be perfectly honest, I was sick and tired of eating my sister’s dry and tasteless attempts at baking (don’t let her know I said that, plus she’s gotten better). However, I could not decry her efforts since I hadn’t tried it myself. My first attempt at baking resulted in the beautiful looking pie. Unfortunately. the only appealing part of it was the visual aspect. My folly lied with not using any sort of recipe and believing that I had some sort of divine baking intuition. Unsurprisingly, I did not possess this intuition. I was always an ardent viewer of the Food Network and began to watch shows such as the Great British Baking Show. You could say my hunger for what I saw on TV drove me to look up recipes and attempt to re-create what I saw on TV. Today I’ve become the best baker in my household and regularly make cookies, cakes, pies, and attempt to explore new recipes and new creations whenever I can.<br/>
+<p style="text-align:center"><b>Coding</b></p>
+    <p>And finally coding. I don’t really know what to say about this one. I got started in extremely basic coding when I was younger playing with the Lego Mindstorm and over the years I’ve picked up a few things, but I never truly delved into the coding world even though I really wanted to. I’ve learned the basics from sites such as Khan Academy (love, love, love this website for learning almost anything in the realm of academics), Codecademy, and I was in the UT Freshmen Research Initiative DIY Diagnostics Stream which explored rudimentary HTML and javascript. Now I’ve signed up for a computer science minor to sate my interests and maybe develop some really cool things.<br/><br/><br/><br/><br/></p>
+<img src="https://lh3.googleusercontent.com/AyuU6GbVBD5b0BbXqj0ntSzAEaMT-Ek3jczEsyxBweqbZ2pMqek1wA1U2ILm8_HfINC3slF5X6stI1zON4XoB1mZ9J0kuAQL5xhSqv4pFdgEXzgiwvOA3a_KL_ulNUbGEagakkgOAkXhC_2k5LcvnPTOA17r5iMIfsHnNu0YeABQXrZVIfYPCTBC2Gp1XnyhP-rkeee6O55CVd6QNR89cTl7XrvvJVlqiOfUVUNPC_Gg5Ccb5ghcbg2uDGgBjVVsi2IjVEbRkkzmnh50y8bPvNBpOa6XqGsWdkB4-yWPI67sp6K6GulFmpy1AHnWdB4U1qr-4bFr2CAMJ7C2xsLn7ZZzWHaNp6lP8A8HRiMWK0jdMaUxpRxXL1H8xQEvMH73pja6xOciDLslq0sg6FQwr8fzpM0Nlot9DHPxYflvUGlNcMbpMKHLbGbqKGSDe6ce6Ho1_5AFFivyW_y3xIXayKBzoXu3FCQUSWEFt7B2AifdhtHRvqdyzkQ4qhMM3ydkArzA2aHb5XBjIUr8dNO89sDnCGCXkARuo0m-ySYFRvZL-zZSFGi27Q3R_I-2ABtzsOPzPBoHOs8XMNEWpGdkto9GSXGGehgvq5whdkqNq2VFYfIkzEKpuLJiE78LABA=w1304-h1600-no" id="me">
+<div class="footer">
+		  <footer class="cr">Copyright &#169; 2018 Dais Industries</footer>
+	  
+	  <div class="socialFooter">
+	    <ul>
+		<li><a href="https://www.instagram.com/daelonmorais/"><img src="https://lh3.googleusercontent.com/Oqz9cttmbYtbB1c7_3kla-an1ea9E-rNWeYFWB-PgJ061LkMRXGhfU6yFdJrMwWKX4hC_F28kFOcFqso5_MJdy6drZuHagCN7DlXax9stBCwJI0V4-prFwRAbwb_AUZHM2EYidTgFpvJkP7BiSSwgikc3Muf-C5My5poXXaXVRZ4e8QOPvUSh040Hp-ZEni6RS2_k1uaan5rjPI1sKkuJKrBIy7VSRBOfgu0cRMONZIpLE0uqBCCseqzBfPu3F1T_zuhxEWvA-3W4ibRltsedsEij3qmyQqd_tU3pePvXTGLPKudNSzWe2jbX_lqt1jDb0Wcoy051ezSrxfGvFJXVSE0OeAY738pk4_AjCfzHkJy0Chbccqvo9wrUoNAiYib3Le5iI0GG8g7WDB_QkcYLxtPiPeGHZuWVCLJ25N4Bb697WNrS00hL_W812qaXSrZrZj_t_CQJFw1rg5lmnRlt_03YzjeWmDGrfX0lU43lD0Kav9qCSH3P_IP_btBqC0NQQL6l6Sa4cpGwLSAz_ld6kDQAD0l5XTyxQ8hIa1_JpeAZ2NefX-rvSkc9dK681GgzyAevp6uj1BlmsDfgPSrpxYXrH50wzc3Y3bWTgt5X51L-0dYbUY_unlH86qS_zI=s200-no" class="instagram"></a></li>
+		<li><a href="https://www.facebook.com/profile.php?id=100011194982490"><img src="https://lh3.googleusercontent.com/0nlsa6uQGjgemRATMakHuvrN7jM5i1OsNdoRzsVrnVTbT0buGkUar3AQGs-ZvZCynizZ6qjOE_RO-Qt35NAgTfnG3cEeIwKzaEdp3dE7UUUvZOY28ACbe0W2QE9eLaW8Xjw5VSeGs2uTGzgDaE4DHtO5NPJhTRdWCtpotQ9YDxRYPslX-vgkevm_IijwGu_fzqFG1C1X-iVATjV4-k0YgWsy6VOM2lrkw86zfyB3TCQoe3cEBD9K9KifGBSHt5VG5qGLue_5desMtxOjyJcdN2lOyGae8OmmfX8NTeMX9TbiG-Xi9Mevtm8QBQ2wpZkVUdDEB7UOpLOSoG1oZMl4t4Pv0Z61LYqzVgY73rFGvJTx_cX2M10ZSprzCQntdeh2PxgDqFlvR66QZc7yrBZJynnGKMQPrg5N1vU9PBGeLJ8-Nhy-AzunZ_AP_ubS62vdbiHhy-RgQ-_ZGzTxW_IhaG3DLHSiMLS2i8Mwf2ip6KkV87Z_gtrThqbgDh14YLbCPgI7p1mkgpqpI2qCBMx4TYZeVw_jZVKALyM4u0jpAsiNaEwafQ2AIDlk1ksT394sQaw8J-2eRWwvh6Y9_7TZDBT5yR2b0rB7W3rC-GUK20AdP-Qsg5-pTseeoGEWZ4I=s512-no" class="facebook"></a></li>
+		<li><a href="https://twitter.com/daelonmorais"><img src="https://lh3.googleusercontent.com/hDFt-z81uluvPq0c7QwfJE_DM-_q8-NSER4cEBB0yrGL2Wt5QMQIfS_rINF28JlWlQDZxBTrUF8DUaEnG_3Ze3CrTo4HkxIFpVHlpBTC2liq7T9DS4nGqzxRxxbdjcgl-t7f2YyXnJfFE5xQVmpV_Kt3Z6SfVgE95SyPnyqjH_JWVkNtdmBeXuHJy3CooPHSW_2qpEUrf86XQ0RKutQmSrnCMKmG77oenVVfrrs9XxsM5XX8WgA8FQQ80wDy3bA_ydjdivo_MByu2AVZjo6Rli944zuZiM2WQAW7HHPYoPneNYn235PtaScUXh9INK2y9AeiN0rnWm2SlCv1DsLMIbhFhNrc3WJ2rQwwvkMy8czbp8xO9LYpGq0XiyCyyzM1aF9lCM69cVHtuhlvlZpPjfa-lRofqRn-cdxdotNfCYBxZop35R6nmcyLOppmFk2u4-uUQQ1Mq1nARoGDQZUqgIlb66Mg92RbrUzlyBW7_svGD0Mq8exmdIauUFgGXYNPyAJ08R2c-yw3S1-t3WMM_DdImbK1mJ-bylV9QnaNLwkm0DO-VCr-xNB0l-QiXO3hd08N0cNPwKXbAeyCFnA1vBy4WUbyq-x6UWnIkcSckfpiGH8JnWNJosTqxU8ITGI=w1165-h1167-no" class="twitter"></a></li>
+		<li><a href="https://www.linkedin.com/in/daelonmorais/"><img src="https://lh3.googleusercontent.com/4X-w_VFrbLtB2IZiQoM9GbKVjJ-2lBP6zRCw6lbQOrFli6bEmk4Kq_r5v55E9kB_0GGVRCNZ34bL1raU3zm550WMrc0qY7eQ6DSGPfZpaI0Y6JiQ3XQeZ8LgUV1oIdfkUEnTFU7JxDBlgr21XIEBIE157iN1P-ZRdPuXbSkhea6kUNmJQi2MJeHfqHHpsgMLNFvb69_9bts_nXO2mH4BFSb0w00vIxfdurAvHndt0lhgmBMdLFPAo4juOka8sgcjaofdFpOd7__5l_qDzOsM_-1mWw99KbyyroDRtgls0sLeR0TDvvKDUI27M4Rp7DWIHymy3T_RwzF17dgrymXvQuZB9fZIFqs5KyXaGgLxHZZEt_7QADwBraNsquBy7h3T5M6CEDOE5ne5GyC56zWDMdlo7CtHf8RWaztvC5Z6WVtzLG5nttSQSdUfVRkeOVwPkfVgFcBsiIzd3URxpiJo_UOIFQ5qV3ojNtPuVT4TjZSBod2ND7Ng9ttctsNvA6hE00AcHQWm515qKeOeza4X9iFxbCCIlXn0X0RAIM3ZjrT3BpPnAFTnPUatVugVnAvRFdeyo-ZCugE_Mnk7H74aQ2iNqA_nD3dzFIDOJ80soROfY3bFsDhDE0IePpPhSok=s1317-no" class="linkedin"></a></li>
+	    </ul>
+	</div>
+	</div>
+	</body>
+</div>
+</html>
