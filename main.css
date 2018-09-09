@@ -18,12 +18,12 @@ body {
   overflow: hidden;
   top:0;
   position:fixed;
-
+  z-index: 999;
   width:100%;
   background-color: #212121;
   padding-left:100px
-  z-index:1000;
 }
+
 /*Title*/
 .navbar h1 {
   margin-bottom:0;
@@ -146,12 +146,12 @@ height:25px;
   background-color:#dad2cc;
   padding:15px 10px 15px 0;
   width:100%;
-  margin:0;
-  margin-top:100vh;
-  position:absolute;
+  margin-bottom:0;
+  margin-top:65vh;
+  position:fixed;
   bottom:0;
 }
-.footer p {
+.footer footer {
   padding-left:1vw;
   display:inline;
 }
@@ -166,7 +166,7 @@ body.homepage{
 }
 .homepage h3{
   margin-left:0px;
-  margin-top: 76vh; 
+  margin-top: 80vh; 
   margin-bottom:0;
   font-size:30px;
   font-weight:100;
@@ -176,34 +176,33 @@ body.homepage{
   padding:50px 0px 50px 10px;
   position: absolute;
 }
-.container {
-    position: relative;
-}
 #denver{
-  height:300px;
-  position: 
-  top:60px;
-  left:20px;
+  width:600px;
+  position:absolute;
+  top:65px;
+  left:70px;
 }
 #goa{
-  height:300px;
+  width:370px;
+  height: 300px;
   position:absolute;
-  top:370px;
-  left:40px;
+  top:65px;
+  left:760px;
 }
-#chicago{
+/*#chicago{
   height:290px;
-  width:500px;
+  width:520px;
   position:absolute;
   top:360px;
   left:700px;
-}
-#austin{
+}*/
+#kenya{
   height:270px;
   position:absolute;
-  top:60px;
-  left:700px;
+  top:390px;
+  left:70px;
 }
+
 /*About Page*/
 body.aboutpage{
   background-color:#white;
@@ -218,4 +217,10 @@ body.aboutpage{
   margin-left:250px;
   font-size:20px;
   font-weight:bolder
+}
+#me{
+  width:390px;
+  position:absolute;
+  top:180px;
+  left:760px;
 }
